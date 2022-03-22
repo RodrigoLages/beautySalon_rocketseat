@@ -8,6 +8,12 @@
     <!-- ICONS -->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!-- SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -28,7 +34,7 @@
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
             <li><a class="title" href="#services">Serviços</a></li>
-            <li><a class="title" href="#testimonial">Depoimentos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
             <li><a class="title" href="#contact">Contatos</a></li>
           </ul>
         </div>
@@ -131,8 +137,115 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem ja passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Natus eaque sunt magni aliquid deleniti optio est aliquam!
+                    Magnam commodi repellat officia aperiam aut doloribus
+                    praesentium, debitis dicta autem, a eum?
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/48.jpg"
+                      alt="Foto de Vanessa Oliveira"
+                    />
+                    Vanessa Oliveira
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Magnam qui dolor quam libero, incidunt itaque officiis saepe
+                    quae rem labore dolorum perferendis, autem ea ducimus
+                    pariatur soluta quibusdam sint fugit.
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/86.jpg"
+                      alt="Foto de Franciele Sales"
+                    />
+                    Franciele Sales
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonials swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus molestias incidunt necessitatibus placeat! Maiores
+                    necessitatibus quo ipsam aspernatur veritatis rem dolorem
+                    sapiente autem eum dolorum similique enim, ex ab provident?
+                  </p>
+                  <cite>
+                    <img
+                      src="assets/photos/87.jpg"
+                      alt="Foto de Valeska Fabris"
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com o Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestôes.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
     <script src="main.js"></script>
   </body>
 </html>
